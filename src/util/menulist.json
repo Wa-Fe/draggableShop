@@ -1,0 +1,58 @@
+{
+  "menulist": [
+    {
+      "name": "图文",
+      "list": [
+        {
+          "name": "轮播",
+          "icon": "el-icon-picture",
+          "type": "swiper",
+          "maxnum": 3,
+          "id": 0,
+          "data": {
+            "autoplay": false,
+            "radius": 0,
+            "top": 0,
+            "left": 0,
+            "type": 1,
+            "image": [
+              {
+                "pic": "https://dummyimage.com/750x520/87CEFA/fff",
+                "url": "",
+                "bgcolor": ""
+              }
+            ]
+          }
+        },
+        {
+          "name": "宫格",
+          "icon": "el-icon-menu",
+          "type": "grid",
+          "maxnum": 3,
+          "id": 0,
+          "data": {
+            "type": 1,
+            "image": [
+              { "pic": "https://dummyimage.com/98x98/87CEFA/fff", "url": "","name":"名字1"}
+            ]
+          }
+        },
+        {
+          "name": "图片分组",
+          "icon": "el-icon-picture-outline-round",
+          "type": "groupPhoto",
+          "maxnum": 3,
+          "id": 0,
+          "data": {
+            "type": 1,
+            "top": 0,
+            "left": 0,
+            "image": [
+              { "pic": "https://dummyimage.com/400x100/87CEFA/fff", "url": ""}
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
